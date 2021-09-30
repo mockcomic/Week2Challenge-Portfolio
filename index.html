@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UT-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <title> Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#work">Work</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+
+<section id="about" class="about">
+
+    <img src="./assets/profilePicture.jpg" alt="Profile Picture">
+
+    <article>
+        <h2>About Me</h2>
+
+        <p>
+            Welcome to my portfolio. My name is Kurtis Hight.
+
+        </p>
+
+    </article>
+
+</section>
+
+<section id="work" class="work">
+    <div>
+        <h2 class="section-title">
+            Take a look at my Github
+        </h2>
+    </div>
+    <div class="repos">
+        <article class="repo">
+            <a class="repo-image" href="https://github.com/mockcomic/MockBot" target="_blank"><img
+                    src="./assets/MockBot.png" style="width:48px;height:48px;" alt="Discord bot logo" />
+            </a>
+            <div class="repo-bio">
+                <h2 class="repo-name">MockBot</h2>
+                <p>
+                    My discord bot is a fun side projcet I work on to add fun and useful tools for my discord server.
+                    I am currently running my discord bot off of a Raspberry Pi 4 running raspbian.
+                    Feel free to fork off of my repo or invite the bot to your server.
+                    A .env file is need with your discord token and tenor api key.
+                    Feedback is always great!
+                </p>
+
+                <a class="repo-iamge"
+                    href="https://discord.com/api/oauth2/authorize?client_id=775925298315264000&permissions=17988521216&scope=bot"
+                    a>Invite Bot</a>
+
+                <h3> Functinality list</h3>
+
+                <ul>
+                    <li>Send Gifs</li>
+                    <li>Play Music</li>
+                    <li>Assign Roles</li>
+                    <li>Purge Messages</li>
+                </ul>
+
+            </div>
+        </article>
+    </div>
+</section>
+
+<img class="repo-iamge" src="https://img.icons8.com/pastel-glyph/64/ffffff/website--v1.png" />
+
+<section id="contact" class="contact"></section>
+<h2>
+    Keep in touch
+</h2>
+<form>
+    <label for="contact-name">Your Name</label>
+
+    <input type="text" id="contact-name" placeholder="Your Name" />
+
+    <label for="contact-message">Message</label>
+
+    <textarea id="contact-message" placeholder="Message"></textarea>
+
+    <button type="submit">Submit</button>
+</form>
+</section>
+
+</html>

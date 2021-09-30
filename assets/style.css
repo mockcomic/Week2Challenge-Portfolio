@@ -1,0 +1,103 @@
+:root {
+  --primary-color:#777768;
+  --secondary-color: #7F8CA6;
+  --background-color: #181818;
+}
+
+*{
+  background-color: var(--background-color);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--primary-color);
+}
+
+img{
+  width: 200px;
+  height: auto;
+}
+/* header start */
+
+
+header {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 9999;
+}
+
+head li {
+  color:var(--text-color);
+}
+
+header a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+a:hover {
+  color:var(--secondary-color);
+}
+
+.about{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-title , .contact{
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.repos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.repo-image{
+}
+
+/* header end */
+
+
+/* section start */
+
+
+/* section end */
+
+
+/* footer start */
+
+/* footer end */
+
+
+/* Compatiabilty */
+@media screen and (max-width: 980px) {}
+
+/* TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {}
+
+/* PHONES AND SMALLER */
+@media screen and (max-width: 575px) {}
