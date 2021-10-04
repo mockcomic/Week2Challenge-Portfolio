@@ -34,7 +34,10 @@
         <h2>About Me</h2>
 
         <p>
-            Welcome to my portfolio. My name is Kurtis Hight.
+            Welcome to my portfolio.
+            <br>
+            <br>
+            My name is Kurtis Hight.
 
         </p>
 
@@ -43,32 +46,32 @@
 </section>
 
 <section id="work" class="work">
-    <div>
-        <h2 class="section-title">
-            Take a look at my Github
-        </h2>
-    </div>
+    <h2>
+        Take a look at my Github
+    </h2>
+
     <div class="repos">
         <article class="repo">
-            <a class="repo-image" href="https://github.com/mockcomic/MockBot" target="_blank"><img
-                    src="./assets/MockBot.png" style="width:48px;height:48px;" alt="Discord bot logo" />
-            </a>
             <div class="repo-bio">
-                <h2 class="repo-name">MockBot</h2>
+                <h2>
+                    <a class="repo-img" href="https://github.com/mockcomic/MockBot" target="_blank"><img
+                            src="./assets/MockBot.png" alt="Discord bot logo" />
+                    </a>MockBot
+                </h2>
+                <div>
+                    <a class="repo-gif" href="https://github.com/mockcomic/MockBot" target="_blank"><img
+                            src="./assets/MockBot.gif" alt="Showing Discord bot commands" />
+                    </a>
+                </div>
                 <p>
                     My discord bot is a fun side projcet I work on to add fun and useful tools for my discord server.
                     I am currently running my discord bot off of a Raspberry Pi 4 running raspbian.
                     Feel free to fork off of my repo or invite the bot to your server.
-                    A .env file is need with your discord token and tenor api key.
+                    A ".env" file is need with your discord token and tenor api key.
                     Feedback is always great!
                 </p>
 
-                <a class="repo-iamge"
-                    href="https://discord.com/api/oauth2/authorize?client_id=775925298315264000&permissions=17988521216&scope=bot"
-                    a>Invite Bot</a>
-
-                <h3> Functinality list</h3>
-
+                <h3> Functionality </h3>
                 <ul>
                     <li>Send Gifs</li>
                     <li>Play Music</li>
@@ -76,28 +79,57 @@
                     <li>Purge Messages</li>
                 </ul>
 
+                <button class="button">
+                    <a href="https://github.com/mockcomic/MockBot" target="_blank" a>GitHub</a>
+                </button>
+
+                <button class="button">
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=775925298315264000&permissions=17988521216&scope=bot"
+                        target="_blank" s a>Invite Bot</a>
+                </button>
             </div>
         </article>
+
+        <article class="repo">
+            <div class="repo-bio">
+                <h2>
+                    Run Buddy
+                </h2>
+                <div>
+                    <a class="repo-gif"><img src="./assets/RunBuddy.gif" alt="Showing off Run Buddy website" />
+                    </a>
+                </div>
+                <p>
+                    Run Buddy is a website I made during UC Berkly Full Stack development bootcamp.
+                </p>
+                <button class="button">
+                    <a href="https://github.com/mockcomic/RunBuddy" target="_blank" a>GitHub</a>
+                </button>
+            </div>
+        </article>
+
     </div>
-</section>
 
-<img class="repo-iamge" src="https://img.icons8.com/pastel-glyph/64/ffffff/website--v1.png" />
+        <!-- <img class="repo-iamge" src="https://img.icons8.com/pastel-glyph/64/ffffff/website--v1.png" /> -->
+        <section id="contact" class="contact">
+            <div class="flex-row">
+                <h2 class="section-title secondary-border">
+                    Reach Out
+                </h2>
+            </div>
+            <div class="contact-info">
+                <div class="contact-form">
+                    <form>
+                        <label for="contact-name">Your Name</label>
+                        <input type="text" id="contact-name"/>
 
-<section id="contact" class="contact"></section>
-<h2>
-    Keep in touch
-</h2>
-<form>
-    <label for="contact-name">Your Name</label>
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message"></textarea>
 
-    <input type="text" id="contact-name" placeholder="Your Name" />
-
-    <label for="contact-message">Message</label>
-
-    <textarea id="contact-message" placeholder="Message"></textarea>
-
-    <button type="submit">Submit</button>
-</form>
-</section>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
 </html>

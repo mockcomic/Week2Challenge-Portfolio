@@ -1,5 +1,8 @@
 ## Week2Challenge-Portfolio
  
+This is my online portfolio I made for UC Berkeley coding boot camp. I planning on updating this repo as I furture myself in my coding career.
+
+Below is this critera for the assigment.
 # User Story
 
 AS AN employer
